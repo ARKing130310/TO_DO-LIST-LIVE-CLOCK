@@ -290,3 +290,14 @@ body {
     background-color: #D54432;
     cursor: pointer;
 }
+.clrbtn2 {
+    width: 150px;
+    height: 35px;
+    border: #D54432 1px solid;
+    border-radius:10px ;
+    font-size: 17px;
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #D54432;
+    cursor: pointer;
+}
