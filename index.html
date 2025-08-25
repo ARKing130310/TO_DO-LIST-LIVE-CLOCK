@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌦️ TO_DO LIST | LIVE CLOCK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- javascrip link -->
+   <script src="script.js"></script>
+  <!-- First part -->
+  <div class="main-div">
+     <div class="time-div">
+      <div class="time-right">
+        <span class="hours" id="hour">00 :</span>
+        <span class="Minutes" id="Minute">00</span>
+        <span class="period" id="period">AM</span>
+        <h4 class="good-message">Good Afternoon⛅</h4>
+      </div>
+      <div class="time-left">
+        <div class="date-div">
+          <span class="days" id="day">Sat,</span>
+          <span class="date" id="date">00,</span>
+          <span class="month" id="month">Aug</span>
+        </div>
+      </div>
+     </div>
+     <!-- Second Part -->
+     <div class="ADDtask-div">
+      <h2 class="addtask">Add Task</h2>
+      <input class="task-input" placeholder="e.g. Do homework, Buy milk, Practice JS...">
+      <button class="addbtn">Add</button>
+      <br>
+      <p class="task-para">Tip: Press Enter to add quickly.</p>
+     </div>
+     <!-- Third Part -->
+     <div class="yourtask-div">
+      <div class="task-right">
+        <br>
+        <h2 class="addtask">Your Tasks</h2>
+        <div class="taskfour">
+          <input class="checkbox" type="checkbox" id="task4" > <label for="task4">Task 4</label>
+        </div>
+        <br>
+        <div class="taskthree">
+          <input class="checkbox" type="checkbox"  id="task3" > <label for="task3">Task 3</label>
+        </div>
+        <br>
+        <div class="tasktwo">
+          <input class="checkbox" type="checkbox"  id="task2" > <label for="task2">Task 2</label>
+        </div>
+        <br>
+        <div class="taskone">
+          <input class="checkbox" type="checkbox"   id="task1"> <label for="task1">Task 1</label>
+        </div>
+        <br>
+        <p>Total: 4 . Completed: 0 . Remaining: 4</p>
+      </div>
+      <div class="task-left">
+        <div class="allbtn">
+          <button class="editbtn">All</button>
+          <button class="editbtn">Active</button>
+          <button class="editbtn">Done</button>
+        </div>
+        <div class="editfour">
+          <button class="editbtn">Edit</button>
+          <button class="deletebtn">Delete</button>
+        </div>
+         <br> 
+        <div class="editthree">
+          <button class="editbtn">Edit</button>
+          <button class="deletebtn">Delete</button>
+        </div>
+        <br>
+        <div class="edittwo">
+          <button class="editbtn">Edit</button>
+          <button class="deletebtn">Delete</button>
+        </div>
+        <br>
+        <div class="editone">
+          <button class="editbtn">Edit</button>
+          <button class="deletebtn">Delete</button>
+        </div>
+        <div class="editclr">
+          <button class="clrbtn">Clear All</button>
+        </div>
+      </div>
+     </div>
+  </div>
+</body>
+</html>

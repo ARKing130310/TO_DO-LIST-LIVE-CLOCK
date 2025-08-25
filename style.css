@@ -1,0 +1,292 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+    background-color:#0E0E0E;
+}
+.main-div{
+    height: 700px;
+    width: 650px;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+.time-div {
+    height: 120px;
+    width: 93%;
+    background-color:#181818;
+    border-radius:19px;
+    border: #272727 1px solid;
+    display: flex;
+}
+.time-right {
+    height: 100%;
+    width: 50%;
+    display: block;
+    align-content: center;
+    padding-left: 20px;
+}
+.hours {
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.Minutes {
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.period {
+    color:#E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.good-message {
+    color:#B08C58;
+    font-size: 17px;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.time-left {
+    height: 100%;
+    width: 50%;
+}
+.date-div {
+    background-color:#272727;
+    height: 35px;
+    width: 110px;
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    border-radius: 10px;
+    border: 1f1f1f 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 55%;
+}
+
+.ADDtask-div {
+    height: 140px;
+    width: 90%;
+    background-color:#181818;
+    border: #272727 1px solid;
+    border-radius:19px; 
+    margin-top: 1.5%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+}
+.addtask {
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+.task-input {
+    width: 450px;
+    height: 35px;
+    border:#2e2d2d 1px solid; 
+    border-radius: 10px;
+    background-color:#2e2d2d ;
+    color: #E4C28A;
+}
+.addbtn {
+    width: 60px;
+    height: 40px;
+    border:#2e2d2d 1px solid;
+    border-radius: 10px;
+    background-color:#2e2d2d ;
+    color: #E4C28A;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.task-para {
+    color: #B08C58;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    padding-top:5px ;
+    font-size: 13px;
+}
+.yourtask-div {
+    height: 370px;
+    width: 93%;
+    background-color:#181818;
+    border: #272727 1px solid;
+    border-radius:19px;
+    margin-top: 1%;
+    display: flex;
+}
+.task-right {
+    height: 360px;
+    width: 50%;
+    background-color:#181818;
+    border-radius:19px;
+    padding-left: 20px;
+}
+.taskfour {
+    height: 50px;
+    width: 100%;
+    font-size: larger;
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.taskthree {
+    height: 50px;
+    width: 100%;
+    font-size: larger;
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.tasktwo {
+    height: 50px;
+    width: 100%;
+    font-size: larger;
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+     gap: 15px;
+
+}
+.taskone {
+    height: 50px;
+    width: 100%;
+    font-size: larger;
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.checkbox {
+  width: 40px;
+  height: 40px;
+  appearance: none; /* Remove default style */
+  background-color: transparent;
+  border: 3px solid #E4C28A; /* Border color */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.checkbox:checked {
+  background-color: #E4C28A; 
+  border-color: #E4C28A;
+}
+
+.checkbox:checked::after {
+  content: "✔"; /* Tick icon */
+  position: absolute;
+  color: #1E1E1E; /* Tick color */
+  font-size: 28px; /* Adjust for large checkbox */
+  top: 2px;
+  left: 6px;
+}
+.task-right p {
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    color:#B08C58;
+    font-size: 15px;
+}
+.task-left {
+    height: 360px;
+    width: 50%;
+    background-color:#181818;
+    border-radius:19px;
+    padding-right: 10px;
+}
+.allbtn {
+    height: 57px;
+    width: 292px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.editfour {
+    height: 50px;
+    width: 292px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.editthree {
+    height: 50px;
+    width: 292px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.edittwo {
+    height: 50px;
+    width: 292px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.editone {
+    height: 50px;
+    width: 292px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.editclr {
+    height: 50px;
+    width: 292px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.editbtn {
+    width: 65px;
+    height: 30px;
+    border: 1px solid;
+    border-radius:10px;
+    font-size: 17px;
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    border:#2e2d2d 1px solid;
+    background-color:#2e2d2d ;
+    cursor: pointer;
+}
+.deletebtn {
+    width: 75px;
+    height: 35px;
+    border:#D54432 1px solid;
+    border-radius:10px ;
+    font-size: 17px;
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #D54432;
+    cursor: pointer;
+}
+.clrbtn {
+    width: 90px;
+    height: 35px;
+    border: #D54432 1px solid;
+    border-radius:10px ;
+    font-size: 17px;
+    color: #E4C28A;
+    font-family: 'Inter', 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #D54432;
+    cursor: pointer;
+}
