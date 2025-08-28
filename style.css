@@ -117,7 +117,7 @@ body {
     font-size: 13px;
 }
 .yourtask-div {
-    height: 370px;
+    /* height: 370px; */
     width: 93%;
     background-color:#181818;
     border: #272727 1px solid;
@@ -169,7 +169,7 @@ body {
 }
 
 
-.checkbox {
+ .checkbox {
   width: 40px;
   height: 40px;
   appearance: none; 
@@ -193,7 +193,7 @@ body {
   font-size: 28px; 
   top: 2px;
   left: 6px;
-}
+} 
 
 .task-text {
     font-size: 16px;
