@@ -117,7 +117,6 @@ body {
     font-size: 13px;
 }
 .yourtask-div {
-    /* height: 370px; */
     width: 93%;
     background-color:#181818;
     border: #272727 1px solid;
@@ -263,3 +262,4 @@ body {
 .clrbtn:hover {
     background-color: #c53030;
 }
+
